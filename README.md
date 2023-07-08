@@ -14,6 +14,6 @@ a.==> VC++ Directories --> Include Directories --> add your <opencv\buil\include
 b.==> VC++ Directories --> Library Directories --> add your <opencv\buil\x64\vc16\lib> path
 c.==> linker --> input --> additional dependencies -->
 
-While running/compilation of code ==> Since this code takes input from your present Directory, if single webcam is attached then no need to change otherwise chnage web cam ID (line no 13)
+While running/compilation of code ==> Since this code takes input from your present Directory hence write complete path of picture
 
-This program works fine for Green and Purple Colour, if you need more colour add/remove then in myColors vector(line no 20) add its HSV minimum and maximum values and add corresponding color in myColorValues vector (line no 24)
+Program By default is set for A4 Documents, but user can change documents size accordingly
